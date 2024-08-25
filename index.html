@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Sudhan<span>shu</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#teams" class="menu-btn">Teams</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Sudhanshu Bhardwaj</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="#about">Know more..</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/Profile.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Sudhanshu Bhardwaj and I'm a <span class="typing-2"></span></div>
+                    <p>I am a dedicated and passionate programmer with a strong foundation in various programming languages, including Python, PHP, HTML, CSS, and JavaScript. I have experience developing web applications and working with APIs, and I am skilled in creating interactive and user-friendly websites. My recent projects include building a trivia website using the Open Trivia Database API and developing a resume builder application.I am continually expanding my knowledge in cybersecurity and other emerging technologies. I enjoy problem-solving and am always eager to learn new skills to stay updated with the latest industry trends.As a motivated and detail-oriented professional, I am seeking opportunities to contribute to innovative projects and grow within a dynamic team. My goal is to leverage my technical expertise and creativity to create impactful software solutions</p>
+                    <a href="Resume/Resume.pdf" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">Security</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Apps Design</div>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p><ul class="skill"><li>Proficiency in programming languages such as Python, PHP, and JavaScript.</li>
+                    <li>Strong understanding of MySQL database management.</li>
+                    <li>Ability to work with APIs and integrate external services.</li>
+                    <li>Understanding of software development principles and best practices.</li>
+                    <li>Problem-solving skills and ability to troubleshoot technical issues.</li>
+                    <li>Strong communication and teamwork skills.</li>
+                    <li>Ability to work in a fast-paced and collaborative environment.</li>
+                    <li>Knowledge of Agile development methodologies.</li>
+                    <li>Experience with testing and debugging software applications.</li>
+                    <li>Strong analytical and critical thinking skills</li>
+                    <li>Attention to detail and commitment to producing high-quality code.</li>
+                    <li>Strong analytical and critical thinking skills.</li></ul></p>
+                    <button id="hiddenData">Read more</button>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML & CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>API Integration</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line API"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Cybersecurity</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line secure"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hidden Section -->
+    <section class="Other_Skills" id="Other_Skills">
+        <div id="hiddenSection" class="hidden">
+            <h2 class="title">Programming Skills</h2>
+                <ul class="skill-list">
+                    <button data-content="html-css">HTML & CSS</button>
+                    <button data-content="python">Python</button>
+                    <button data-content="javascript">JavaScript</button>
+                    <button data-content="php">PHP</button>
+                    <button data-content="mysql">MySQL</button>
+                    <button data-content="api">API Integration</button>
+                    <button data-content="cybersecurity">Cybersecurity</button>
+                </ul>
+                <div id="contentContainer">
+                    <div id="html-css" class="content-item">
+                        <div class="container">
+                            <div class="hc">
+                                <h2>HTML</h2>
+                                <ul>
+                                    <li><strong>Semantic HTML :</strong>Usage of semantic elements like header, nav, main, section, article, and footer.</li>
+                                    <li><strong>Forms and Input Types :</strong>Creating and styling forms with different input types, validation, and accessibility.</li>
+                                    <li><strong>Responsive Design :</strong> Techniques for creating layouts that work well on various screen sizes using media queries.</li>
+                                    <li><strong>Accessibility :</strong> Implementing ARIA roles and attributes to make your web pages accessible.</li>
+                                    <li><strong>SEO Best Practices :</strong> Proper use of meta tags, header tags, and structured data.</li>
+                                    <li><strong>HTML5 Features :</strong> Utilizing new HTML5 elements and APIs like canvas, video, and audio.</li>
+                                </ul>
+                            </div>                
+                            <div class="hc">
+                                <h2>CSS</h2>
+                                <ul>
+                                    <li><strong>CSS Grid and Flexbox :</strong> Creating complex layouts using CSS Grid and Flexbox.</li>
+                                    <li><strong>Responsive Design :</strong> Implementing fluid grids, flexible images, and media queries for responsive designs.</li>
+                                    <li><strong>Animation and Transitions :</strong> Using CSS animations and transitions to create dynamic effects.</li>
+                                    <li><strong>Preprocessors :</strong> Working with CSS preprocessors like SASS or LESS.</li>
+                                    <li><strong>Custom Properties (CSS Variables) :</strong> Using CSS variables for theming and maintaining consistency.</li>
+                                    <li><strong>Typography and Color Theory :</strong> Styling text and applying color theory for better design aesthetics.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                        <div id="python" class="content-item">
+                            <div class="container">
+                                <div class="Allother">
+                                    <h2>Python</h2>
+                                    <ul>
+                                        <li><strong>Project Showcase :</strong> Highlight any significant Python projects you've worked on. This could be web applications, automation scripts, data analysis tools, or anything else you've developed. Include a brief description, key technologies used, and links to the code repository or live demo.</li>
+                                        <li><strong>Code Samples :</strong> Display snippets of Python code that showcase your skills. Make sure to include comments and explanations to illustrate your understanding of different concepts.</li>
+                                        <li><strong>Problem Solving :</strong> Demonstrate your problem-solving abilities with examples of algorithms or challenges you've tackled. You can include explanations of your approach and the results.</li>
+                                        <li><strong>Data Analysis :</strong> If you've worked with data, show examples of data analysis projects. Include visualizations, analysis reports, or insights you've derived using libraries like Pandas, NumPy, or Matplotlib.</li>
+                                        <li><strong>Web Scraping :</strong> If you have experience with web scraping, include examples of projects where you've extracted and processed data from websites using libraries like BeautifulSoup or Scrapy.</li>
+                                        <li><strong>API Integration :</strong> Showcase any work involving API integration, such as building applications that consume external APIs or creating your own API's.</li>
+                                        <li><strong>Automation Scripts :</strong> Share examples of scripts you've written to automate repetitive tasks, such as file management, data processing, or system administration.</li>
+                                        <li><strong>Contributions to Open Source :</strong> If you've contributed to any open-source projects, mention them and provide links to your contributions.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="javascript" class="content-item">
+                            <div class="container">
+                                <div class="Allother">
+                                    <h2>JavaScript</h2>
+                                    <ul>
+                                        <li><strong>Interactive Features :</strong> Showcase projects with interactive elements like dynamic forms, real-time data updates, or interactive charts.</li>
+                                        <li><strong>API Integrations :</strong> Demonstrate your ability to work with APIs by integrating third-party services, like weather data or social media feeds.</li>
+                                        <li><strong>Single Page Applications (SPAs) :</strong> Include examples of SPAs built with frameworks like React, Vue.js, or Angular.</li>
+                                        <li><strong>Data Handling :</strong> Show off your skills with data manipulation and visualization, using libraries like D3.js or Chart.js.</li>
+                                        <li><strong>Asynchronous Programming :</strong> Display your understanding of asynchronous JavaScript, including promises, async/await, and AJAX.</li>
+                                        <li><strong>Performance Optimization :</strong> Highlight projects where you have optimized performance, such as lazy loading, code splitting, or efficient state management..</li>
+                                        <li><strong>Testing :</strong> Demonstrate your knowledge of testing frameworks like Jest or Mocha by including projects with unit and integration tests.</li>
+                                        <li><strong>Custom Libraries/Components :</strong> Show any custom libraries or components you have built, demonstrating your ability to create reusable code.</li>
+                                        <li><strong>Responsive Design:</strong> Include projects that adapt well to different screen sizes, showcasing your ability to create responsive web applications.</li>
+                                        <li><strong>Code Quality :</strong> Display examples of well-structured, clean, and maintainable code. Highlight your use of modern JavaScript features and best practices.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="php" class="content-item">
+                            <div class="container">
+                                <div class="Allother">
+                                    <h2>Core PHP Skills</h2>
+                                    <ul>
+                                        <li><strong>PHP Syntax & Fundamentals :</strong> Understanding basic syntax, data types, variables, constants, operators, and control structures.</li>
+                                        <li><strong>Functions & Arrays :</strong> Defining and using functions, understanding array operations and manipulations.</li>
+                                        <li><strong>Object-Oriented Programming (OOP'S) :</strong> Knowledge of classes, objects, inheritance, encapsulation, polymorphism, and interfaces.</li>
+                                        <li><strong>Error Handling & Debugging :</strong> Techniques for handling errors and debugging PHP code.</li>
+                                    </ul>
+                                    <h2>Advanced PHP Skills</h2>
+                                    <ul>
+                                        <li><strong>PHP Frameworks :</strong> Experience with popular frameworks like Laravel, Symfony, CodeIgniter, or Zend.</li>
+                                        <li><strong>Composer :</strong> Using Composer for dependency management.</li>
+                                        <li><strong>RESTful API's :</strong> Creating and consuming RESTful API's.</li>
+                                        <li><strong>Security Best Practices :</strong> Understanding and implementing security measures like data validation, sanitization, and protection against common vulnerabilities (e.g., SQL injection, XSS).</li>
+                                        <li><strong>Database Interaction :</strong> Experience with PDO, MySQLi, or other database interaction techniques.</li>
+                                    </ul>
+                                    <h2>Frontend Integration</h2>
+                                    <ul>
+                                        <li><strong>HTML/CSS/JavaScript Integration :</strong> Integrating PHP with frontend technologies.</li>
+                                        <li><strong>AJAX :</strong> Using PHP with AJAX for asynchronous web applications.</li>
+                                    </ul>
+                                    <h2>Web Technologies</h2>
+                                    <ul>
+                                        <li><strong>Session Management :</strong> Managing sessions and cookies in PHP.</li>
+                                        <li><strong>File Handling :</strong> Uploading, downloading, and manipulating files.</li>
+                                        <li><strong>Email Sending :</strong> Sending emails using PHP's mail function or third-party libraries.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="mysql" class="content-item">
+                            <div class="container">
+                                <div class="Allother">
+                                    <h2>MySQL</h2>
+                                    <ul>
+                                        <li><strong>Database Design & Architecture :</strong> Creating and managing databases and tables,Normalization and denormalization,ERD (Entity-Relationship Diagram) design.</li>
+                                        <li><strong>Query Writing :</strong> Proficiency in writing complex SQL queries,Use of JOINs, subqueries, and aggregate functions,Writing stored procedures, triggers, and functions.</li>
+                                        <li><strong>Database Optimization :</strong> Indexing and query optimization,Understanding of EXPLAIN and profiling queries, Performance tuning and troubleshooting.</li>
+                                        <li><strong>Data Manipulation :</strong> Inserting, updating, deleting data And Bulk data import/export.</li>
+                                        <li><strong>Database Security :</strong> Data encryption and securing sensitive data.</li>
+                                        <li><strong>Working with MySQL in Web Development :</strong> Connecting MySQL to front-end applications via API's.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="api" class="content-item">
+                            <div class="Allother">
+                                <h2>API Development</h2>
+                                <ul>
+                                    <li><strong>RESTful API Design :</strong> Experience designing RESTful API's, including best practices for URL structuring, HTTP methods, and response codes.</li>
+                                    <li><strong>API Documentation :</strong> Creating comprehensive documentation using tools like Swagger, Postman, or Redoc.</li>
+                                    <li><strong>Authentication :</strong> Implementing authentication and authorization mechanisms, such as OAuth2, JWT, or API keys.</li>
+                                </ul>
+                                <h2>API Integration</h2>
+                                <ul>
+                                    <li><strong>Third-Party API's :</strong> Using Third-Party API's integrating with popular APIs like Google Maps, Twitter, Stripe, etc.</li>
+                                    <li><strong>Error Handling and Debugging :</strong> Techniques for handling API errors and using tools for debugging API interactions.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="cybersecurity" class="content-item">
+                            <div class="Allother">
+                                <h2>Core Skills</h2>
+                                <ul>
+                                    <li><strong>Network Security :</strong> Firewall configuration,Intrusion detection,prevention systems (IDS/IPS) And Virtual Private Networks (VPNs).</li>
+                                    <li><strong>Application Security :</strong> Secure coding,Web application security And Secure software development lifecycle (SDLC).</li>
+                                    <li><strong>Cryptography :</strong> Encryption/Decryption methods And Public key infrastructure (PKI).</li>
+                                    <li><strong>Cryptography :</strong> Digital forensics analysis And Malware analysis.</li>
+                                </ul>
+                                <h2>Tools</h2>
+                                <ul>
+                                    <li><strong>NPenetration Testing Tools :</strong> Metasploit, Burp Suite, Nessus.</li>
+                                    <li><strong>Network Analysis Tools :</strong> Wireshark, Nmap.</li>
+                                </ul>
+                            </div>
+                        </div>                    
+                </div>
+        </div>
+    </section>
+
+    <!-- teams section start -->
+    <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My teams</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-1.jpeg" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-2.jpeg" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-3.jpeg" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-4.jpeg" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/profile-5.jpeg" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <div class="icons">
+                        <div class="row">
+                            <a href="https://github.com/Subi003/Subi003.git" target="_blank"><i class="fas fa-user"></i></a>
+                            <div class="info">
+                                <div class="head">Github ID</div>
+                                <div class="sub-title">Sudhanshu Bhardwaj</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="https://maps.app.goo.gl/6T5UiC8xNyUdNwbdA" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Chamoli, Uttarakhand</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="mailto:programmer.cs@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">programmer.cs@gmail.com</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <a href="https://wa.me/918532945649?" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                            <div class="info">
+                                <div class="head">Contact No.</div>
+                                <div class="sub-title">+91 8532945649</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span>Created By <a href="#">Sudhanshu Bhardwaj</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
